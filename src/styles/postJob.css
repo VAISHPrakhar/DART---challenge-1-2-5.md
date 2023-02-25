@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+    font-family: "Abel";
+}
+
+h5 {
+    margin-left: 93px;
+    margin-top: 10px;
+}
+
+#newJobPostForm {
+    color: black;
+    background-color: #f1f1f1;
+    width: 650px;
+    border-radius: 20px;
+    margin: 20px auto;
+    margin-top: -200px;
+    margin-bottom: 200px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 40px 0px 40px;
+    z-index: -1;
+}
+header {
+    margin: 5px 5px 15% 5px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #28376a;
+    background-color: #28376a;
+}
+#logoImage {
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#bannerImage {
+    float: right;
+    width: 20%;
+    margin: -250px 150px 0px 0px;
+}
+
+#newJobPostForm h1 {
+    padding: 20px 0px 10px;
+}
+
+#newJobPostForm h3 {
+    margin-bottom: 30px;
+}
+
+#newJobPostInputs input[type=text]{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 450px;
+    border: none;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.error{
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: monospace;
+    color: red;
+}
+
+#inputSubContainer {
+    text-align: left;
+    background-color: #f1f1f1;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+#inputSubContainer:hover {
+    background-color: #e7e7e7;
+
+}
+
+#inputSubContainer h3 {
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#submitJobBtn {
+    width: 290px;
+    display: block;
+    border-radius: 20px;
+    background-color: #cf566a;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    margin: 30px auto;
+    border: none;
+}
+
+#submitJobBtn:hover {
+    background-color: #e45d74;
+}
+
+#undoSubmissionBtn {
+    width: 200px;
+    display: block;
+    border-radius: 20px;
+    background-color: #46af72;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    margin: 0px auto;
+    border: none;
+    display: none;
+}
+
+#undoSubmissionBtn:hover {
+    background-color: #4ec780;
+
+}
+@media (max-width: 991px){
+    #bannerImage{
+      width: 0px;
+      display: none;
+    }
+    header{
+      height: 30%;
+      margin-bottom: 15%;
+    }
+    h5{
+        margin-bottom: 10%;
+    }
+  }
