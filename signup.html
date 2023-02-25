@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/signUp.css">
+    <title>Signup</title>
+</head>
+<body>
+    <section>
+      <!-- Login  -->
+      <div class="container">
+        <div class="user signinBx">
+          <div class="imgBx"><img src="assets/illustrations/undraw_enter_uhqk.png" alt="" /></div>
+          <div class="formBx">
+
+            <form id="login" name="Login" onsubmit="return validateLogin(event); ">
+              <h2>Sign In</h2>
+              <input type="text" name="LoginUsername" placeholder="Username" />
+              <span id="usernameError" class="error"></span>
+              <input type="password" name="LoginPassword" placeholder="Password" />
+              <span id="passError" class="error"></span>
+              <input type="submit" name="LoginSubmit" value="Login" />
+              <p class="signup">
+                Don't have an account ?
+                <a href="#" onclick="toggleForm();">Sign Up.</a>
+              </p>
+            </form>
+
+          </div>
+        </div>
+      <!-- Sign Up -->
+      <div class="user signupBx">
+          <div class="formBx">
+
+            <form id="signup" name="Signup" onsubmit="return validateSignup(event);">
+              <h2>Create an account</h2>
+              <input type="text" name="SignupUsername" placeholder="Username" />
+              <span id="nameError" class="error"></span>
+              <input type="email" name="SignupEmail" placeholder="Email Address" />
+              <span id="emailError" class="error"></span>
+              <input type="password" name="SignupPassword" placeholder="Create Password" />
+              <span id="passwordError" class="error"></span>
+              <input type="password" name="SignupCPassword" placeholder="Confirm Password" />
+              <span id="cPasswordError" class="error"></span>
+              <input type="submit" name="SignupSubmit" value="Sign Up" />
+              <p class="signup">
+                Already have an account ?
+                <a href="#" onclick="toggleForm();">Sign in.</a>
+              </p>
+            </form>
+
+          </div>
+          <div class="imgBx"><img src="assets/illustrations/undraw_Swipe_profiles_re_tvqm.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
