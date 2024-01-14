@@ -16,7 +16,7 @@
         if(mysqli_query($conn,$sql));
     }
     
-    if($_SERVER["REQUEST_METHOD"]=="POST"){
+    if($_SERVER["REQUEST_METHOD"] =="POST"){
         $newUser=htmlspecialchars($_POST['SignupUsername']);
         $newEmail=htmlspecialchars($_POST['SignupEmail']);
         $newPass=md5(htmlspecialchars($_POST['SignupPassword']));
