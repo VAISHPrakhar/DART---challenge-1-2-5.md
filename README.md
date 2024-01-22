@@ -1,4 +1,4 @@
-﻿# [á‰€áŒ£áˆª](https://sweg2012batch-seca-g2.github.io/rozgr/landing) - Connecting people with businesses
+ Connecting people with businesses
 
 
 
